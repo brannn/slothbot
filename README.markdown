@@ -5,6 +5,7 @@ A collection of scripts you can use to monitor your Apache servers for long-runn
 
 ### Requirements
 
+
 - A Beanstalkd server
 - beanstalk-client (Ruby)
 - Beanstalk::Client (Perl)
@@ -13,10 +14,10 @@ A collection of scripts you can use to monitor your Apache servers for long-runn
 
 ### Getting started
 
-1. Edit 'hosts.dat' to include the Apache servers you want to monitor.
-2. Modify 'slothbot.yml' with your Jabber credentials and Beanstalkd info.
-3. Modify $port in 'check_sloth.pl' to reflect your environment. 
-4. Run 'start.sh'
+1. Edit <code>hosts.dat</code> to include the Apache servers you want to monitor.
+2. Modify <code>slothbot.yml</code> with your Jabber credentials and Beanstalkd info.
+3. Modify $port in <code>check_sloth.pl</code> to reflect your environment. 
+4. Run <code>start.sh</code>
 5. Now run 'check_sloth.pl'
 6. When it works to your satisfaction, throw 'check_sloth.pl' into a crontab.
 
