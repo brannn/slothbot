@@ -1,0 +1,10 @@
+xmpp:
+  jid: slothbot@some.server.tld/slothbot
+  pass: h4x0rtr0nik
+  muc: muc@conference.some.server.tld/Slothbot
+  status: Online
+
+beanstalk:
+  server: 127.0.0.1:11300
+  timeout: 3600
+  tube: sloth
